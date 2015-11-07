@@ -1,8 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class AreaCreate : MonoBehaviour
-{
+public class AreaCreate : MonoBehaviour {
 	
 	public GameObject[] CreateAreas;
 	

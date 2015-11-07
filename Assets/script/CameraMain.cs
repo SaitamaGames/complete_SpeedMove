@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class CameraMain : MonoBehaviour {
+public class CameraMain: MonoBehaviour {
 	
 	public static bool gameOver = false;
 	
@@ -9,7 +9,7 @@ public class CameraMain : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		gameOver = false;
-		collider.isTrigger = true;
+		GetComponent<Collider>().isTrigger = true;
 	}
 		
 	public float nowSpeed = 2.5f;
